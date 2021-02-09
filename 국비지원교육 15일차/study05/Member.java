@@ -1,0 +1,31 @@
+package study05;
+
+public class Member {
+
+	private String name;
+	private int height;
+	private int weight;
+	private String nation;
+	
+	public Member(String name, int height, int weight, String nation) {
+		this.name = name;
+		this.height = height;
+		this.weight = weight;
+		this.nation = nation;
+	}
+	
+	
+	public String getName() {
+		return name;
+	}
+	
+	public int getHeight() {
+		return height;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public String getNation() {
+		return nation;
+	}
+}
